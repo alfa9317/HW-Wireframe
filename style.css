@@ -1,0 +1,78 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: grey;
+  }
+  
+  .container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1000px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+  }
+  
+  header {
+    background-color:white;
+    height: 100px;
+    padding: 30px;
+    border-bottom: 8px solid grey;
+  }
+  nav{
+    background-color:white;
+    height: 100px;
+    padding: 30px;
+    border-bottom: 16px solid grey;
+  }
+  
+  aside {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    border-left: 16px solid grey;
+    border-bottom: 16px solid grey;
+  }
+  
+  section {
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    border-right: 16px solid grey;
+    border-bottom: 16px solid grey;
+  }
+  
+  footer {
+    background-color: white;
+    width: 1000px;
+    height: 100px;
+    padding: 30px;
+    border: 1px solid grey;
+  }
+
+  article{
+      margin-top: 8px;
+      color: white;
+      padding-top: 10px;
+  }
+
+  .art1{
+    height: 60px;
+    border-top: 0px solid grey;
+    border-right: 32px solid grey;
+    border-left: 20px solid grey;
+    margin-bottom: 8px;
+    padding: 16px;
+  }
+  
+  .art2{
+    height: 60px;
+    border-bottom: 16px solid grey;
+    border-right: 32px solid grey;
+    border-left: 20px solid grey;
+    margin-top: 8px;
+    padding: 8px;
+  }
+  
